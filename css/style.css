@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Lato);
+@import url(normalize.css);
+@import url(icons.css);
+
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #E9D0E0;
+	font-size: 80px;
+	margin: 80px 0 40px 0;
+	transition: 0.5s;
+}
+
+h1:hover {
+	transform: scale(1.1);
+	color: white;
+}
+
+figure {
+	display: block;
+	text-align: center;
+}
+
+figure img {
+	border-radius: 50%;
+	border: 1px solid #FF070B;
+	position: relative;
+	top:0;
+}
+
+.contenedor{
+	width: 1000px;
+	margin: auto;
+	position: relative;
+}
+
+.portada {
+	width: 100%;
+	height: 500px;
+	border-bottom: 1px solid #FF070B;
+}
+
+.background {
+	background: url(../image/fondo-codigo3.jpg);
+	height: inherit;
+	background-size: cover;
+}
+
+.header {
+	background: rgba(0,0,0,0.8);
+	height: 100px;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+	display: inline-block;
+	text-align: center;
+	float: right;
+	margin-top: 0;
+	padding-top: 10px;
+}
+
+.menu li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.menu a {
+	color: #E9D0E0;
+	font-size: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+	transition: .3s;
+}
+
+a:hover {
+	color: #FF070B;
+}
+
+.marca-personal {
+	display: inline-block;
+	width: 250px;
+}
+
+.marca {
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.dedicacion {
+	color: #FF070B;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	display: inline-block;
+	margin-top: 0;
+	float: right;
+}
+
